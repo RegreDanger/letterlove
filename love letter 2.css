@@ -191,8 +191,7 @@
 }
 .words {
      position: absolute;
-     left: 10%;
-     width: 80%;
+     width: 100%;
      background-color: #ffe6e6;
     /* Light romantic tone */
      font-size: 1.1rem;
@@ -200,6 +199,7 @@
 }
 .words.line1 {
      top: 5%;
+	 left: 10%;
      font-size: 1rem;
      width: 40%;
      text-align: left;
