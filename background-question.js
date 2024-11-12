@@ -10,9 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
         "El punto es que, en tí encontré\n"
       + "algo que en nadie pude encontrar,\n"
       + "algo que me hace completo.",
-        /*"Summer, o Elvira, realmente hice\n"
-      + "esto junto con la página web\n"
-      + "anterior para tí, porque no\n"
+        "Summer, o Elvira, realmente hice\n"
+      + "esto anterior para tí, porque no\n"
       + "me gustaría que solo fueras\n"
       + "espectadora.",
         "Y mira, yo sé que tal vez la\n"
@@ -20,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
       + "resuene en tu mente.\n",
         "Aún así, quiero invitarte a algo.",
       	"No, más que eso, lo deseo y\n"
-      + "y realmente lo quiero, así que sin más.."*/
+      + "y realmente lo quiero, así que sin más.."
     ];
     const back = document.getElementById('Back');
     const wrapper = document.getElementById('wrapper');
