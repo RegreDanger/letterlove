@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8" />
+      <title>Para Elvira</title>
+      <link rel="icon" href="images/icon.png" type="image/png">
+      <link rel="stylesheet" href="love letter 2.css"/>
+      <link rel="stylesheet" href="hearts.css"/>
+   </head>
+   <body>
+      <div class="reset">
+         <button id="open">Abrir Carta</button>
+         <button id="reset">Cerrar Carta</button>
+         <div id="envelope" class="closed">
+            <div class="heart-flap"></div>
+            <div class="front flap"></div>
+            <div class="front pocket"></div>
+            <div class="letter"><img src="images/bg.jpg"></div>
+            <div class="hearts">
+               <div class="envlope-wrapper">
+                  <div class="heart a1"></div>
+                  <div class="heart a2"></div>
+                  <div class="heart a3"></div>
+               </div>
+            </div>
+         </div>
+         <div class="box">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 497 470" height="100%" id="heart">
+               <path d="M140 20C73 20 20 74 20 140c0 135 136 170 228 303 88-132 229-173 229-303 0-66-54-120-120-120-48 0-90 28-109 69-19-41-60-69-108-69z" stroke-width="20" fill="none"/>
+               <defs>
+                  <radialGradient id="radialGradient" cx="50%" cy="50%" r="100%" gradientUnits="objectBoundingBox">
+                     <stop offset="1%" style="stop-color:rgb(255, 150, 150); stop-opacity:1"></stop>
+                     <stop offset="90%" style="stop-color:rgb(255, 0, 0); stop-opacity:1"></stop>
+                     <stop offset="100%" style="stop-color:rgb(208, 46, 46); stop-opacity:1"></stop>
+                  </radialGradient>
+               </defs>
+               <style type="text/css">
+                  #heart{stroke:url(#radialGradient)}
+               </style>
+            </svg>
+         </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="love letter 2.js"></script>
+      <script src="hearts.js"></script>
+      <script src="words.js"></script>
+   </body>
+</html>
